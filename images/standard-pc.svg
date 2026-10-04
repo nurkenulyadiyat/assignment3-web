@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="title desc">
+  <title id="title">Standard gaming setup</title>
+  <desc id="desc">A purple screen, desktop computer, keyboard, and mouse on a light background.</desc>
+  <rect width="560" height="360" fill="#f1eef9"/>
+  <circle cx="276" cy="169" r="116" fill="#e8e0f5"/>
+  <path d="M62 290H498" stroke="#d0c5e1" stroke-width="2"/>
+  <rect x="76" y="83" width="274" height="174" rx="9" fill="#24212d"/>
+  <rect x="87" y="94" width="252" height="145" rx="2" fill="#6d42c2"/>
+  <path d="M88 219L194 111H235L108 239H88Z" fill="#8058cf"/>
+  <path d="M267 94H311L169 239H125Z" fill="#8058cf"/>
+  <path d="M194 174L211 157L228 174M211 158V191" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="213" cy="248" r="3" fill="#b5adc5"/>
+  <path d="M200 257H225L231 279H194Z" fill="#938b9f"/>
+  <rect x="177" y="277" width="71" height="7" rx="3" fill="#24212d"/>
+  <rect x="373" y="105" width="94" height="178" rx="8" fill="#24212d"/>
+  <rect x="386" y="117" width="68" height="151" rx="3" fill="#393343"/>
+  <circle cx="420" cy="154" r="23" fill="#6d42c2"/>
+  <circle cx="420" cy="154" r="13" fill="#b9a0e6"/>
+  <circle cx="420" cy="154" r="6" fill="#393343"/>
+  <circle cx="420" cy="211" r="23" fill="#6d42c2"/>
+  <circle cx="420" cy="211" r="13" fill="#b9a0e6"/>
+  <circle cx="420" cy="211" r="6" fill="#393343"/>
+  <circle cx="445" cy="124" r="3" fill="#fff"/>
+  <path d="M132 297H309L323 318H118Z" fill="#24212d"/>
+  <path d="M143 304H299M137 311H305" stroke="#aca3b8" stroke-width="3" stroke-dasharray="9 5"/>
+  <path d="M347 297C338 297 333 304 333 313V317H361V313C361 304 356 297 347 297Z" fill="#6d42c2"/>
+  <path d="M347 300V307" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+</svg>

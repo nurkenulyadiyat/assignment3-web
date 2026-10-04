@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="title desc">
+  <title id="title">Console gaming setup</title>
+  <desc id="desc">A large purple screen, a white game console, and a matching game controller.</desc>
+  <rect width="560" height="360" fill="#f1eef9"/>
+  <circle cx="276" cy="169" r="116" fill="#e8e0f5"/>
+  <path d="M62 290H498" stroke="#d0c5e1" stroke-width="2"/>
+  <rect x="67" y="83" width="294" height="174" rx="9" fill="#24212d"/>
+  <rect x="78" y="94" width="272" height="145" rx="2" fill="#6d42c2"/>
+  <path d="M79 220L204 95H244L100 239H79Z" fill="#8058cf"/>
+  <path d="M270 94H313L168 239H125Z" fill="#8058cf"/>
+  <path d="M196 174L214 156L232 174M214 157V191" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="214" cy="248" r="3" fill="#b5adc5"/>
+  <path d="M109 258L101 282M319 258L327 282" stroke="#24212d" stroke-width="7" stroke-linecap="round"/>
+  <path d="M401 98H449L460 280H390Z" fill="#24212d"/>
+  <path d="M391 93L413 98L409 280H381Z" fill="#fff" stroke="#d0c5e1" stroke-width="2"/>
+  <path d="M439 98L459 93L469 280H442Z" fill="#fff" stroke="#d0c5e1" stroke-width="2"/>
+  <path d="M415 109L412 263" stroke="#6d42c2" stroke-width="3"/>
+  <path d="M452 221V256" stroke="#24212d" stroke-width="3" stroke-linecap="round"/>
+  <rect x="378" y="279" width="94" height="6" rx="3" fill="#24212d"/>
+  <path d="M190 272C181 271 171 278 167 290L160 311C157 324 165 331 174 325L192 312H237L255 325C264 331 272 324 269 311L262 290C258 278 248 271 239 272L227 276H202Z" fill="#fff" stroke="#d0c5e1" stroke-width="2"/>
+  <path d="M204 280H225L229 293H200Z" fill="#24212d"/>
+  <path d="M183 284V299M175 292H191" stroke="#24212d" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="246" cy="285" r="3" fill="#6d42c2"/>
+  <circle cx="254" cy="293" r="3" fill="#6d42c2"/>
+  <circle cx="238" cy="293" r="3" fill="#6d42c2"/>
+  <circle cx="246" cy="301" r="3" fill="#6d42c2"/>
+  <circle cx="200" cy="305" r="7" fill="#24212d"/>
+  <circle cx="229" cy="305" r="7" fill="#24212d"/>
+</svg>

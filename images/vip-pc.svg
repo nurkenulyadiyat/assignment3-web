@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="title desc">
+  <title id="title">VIP gaming setup</title>
+  <desc id="desc">A wide gaming monitor, premium desktop computer, and headphones on a light background.</desc>
+  <rect width="560" height="360" fill="#f1eef9"/>
+  <circle cx="276" cy="169" r="116" fill="#e8e0f5"/>
+  <path d="M62 290H498" stroke="#d0c5e1" stroke-width="2"/>
+  <rect x="63" y="82" width="304" height="171" rx="9" fill="#24212d"/>
+  <rect x="74" y="93" width="282" height="143" rx="2" fill="#6d42c2"/>
+  <path d="M75 211L192 94H231L89 236H75Z" fill="#8058cf"/>
+  <path d="M263 93H310L167 236H120Z" fill="#8058cf"/>
+  <path d="M195 174L215 154L235 174M215 155V194" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="215" cy="245" r="3" fill="#b5adc5"/>
+  <path d="M201 253H229L238 279H192Z" fill="#938b9f"/>
+  <path d="M182 280H248" stroke="#24212d" stroke-width="7" stroke-linecap="round"/>
+  <rect x="389" y="105" width="89" height="178" rx="8" fill="#24212d"/>
+  <rect x="401" y="117" width="65" height="151" rx="3" fill="#393343"/>
+  <path d="M408 129H459V256H408Z" fill="none" stroke="#6d42c2" stroke-width="4"/>
+  <circle cx="433" cy="159" r="20" fill="#6d42c2"/>
+  <circle cx="433" cy="159" r="11" fill="#b9a0e6"/>
+  <circle cx="433" cy="215" r="20" fill="#6d42c2"/>
+  <circle cx="433" cy="215" r="11" fill="#b9a0e6"/>
+  <circle cx="457" cy="123" r="3" fill="#fff"/>
+  <path d="M130 297H304L318 318H116Z" fill="#24212d"/>
+  <path d="M140 304H294M135 311H300" stroke="#aca3b8" stroke-width="3" stroke-dasharray="9 5"/>
+  <path d="M334 287V273C334 254 347 242 363 242C379 242 392 254 392 273V287" fill="none" stroke="#24212d" stroke-width="10" stroke-linecap="round"/>
+  <rect x="328" y="277" width="15" height="30" rx="6" fill="#6d42c2"/>
+  <rect x="383" y="277" width="15" height="30" rx="6" fill="#6d42c2"/>
+  <path d="M390 302L378 313H367" fill="none" stroke="#24212d" stroke-width="4" stroke-linecap="round"/>
+</svg>

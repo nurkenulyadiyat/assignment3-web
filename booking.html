@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Try the LEVEL UP demo booking form. This student project does not create real reservations.">
+  <title>LEVEL UP | Booking</title>
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="index.html" aria-label="LEVEL UP home">LEVEL <span>UP</span></a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="zones.html">Gaming Zones</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="booking.html" aria-current="page">Booking</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container page-content">
+    <div class="page-heading">
+      <p class="eyebrow">Make time to play</p>
+      <h1>Book a Session</h1>
+      <p class="lead mb-0">Choose your setup and a time for your next game.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-12 col-lg-7">
+        <section class="info-panel" aria-labelledby="details-title">
+          <h2 id="details-title">Your session details</h2>
+          <p id="form-note" class="small-note mb-4">Demo form only. No booking will be made.</p>
+
+          <form id="booking-form" aria-describedby="form-note">
+            <div class="mb-3">
+              <label class="form-label" for="full-name">Full Name</label>
+              <input class="form-control" type="text" id="full-name" name="fullName" autocomplete="name" placeholder="Alex Smith" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="email">Email</label>
+              <input class="form-control" type="email" id="email" name="email" autocomplete="email" placeholder="alex@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="gaming-zone">Gaming Zone</label>
+              <select class="form-select" id="gaming-zone" name="gamingZone" required>
+                <option value="" selected disabled>Choose a zone</option>
+                <option value="standard-pc">Standard PC</option>
+                <option value="vip-pc">VIP PC</option>
+                <option value="console">Console Zone</option>
+              </select>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col-12 col-sm-6">
+                <label class="form-label" for="date">Date</label>
+                <input class="form-control" type="date" id="date" name="date" required>
+              </div>
+              <div class="col-12 col-sm-6">
+                <label class="form-label" for="time">Time</label>
+                <input class="form-control" type="time" id="time" name="time" required>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="button">Demo Booking</button>
+          </form>
+        </section>
+      </div>
+
+      <div class="col-12 col-lg-5">
+        <section class="booking-guide" aria-labelledby="guide-title">
+          <img src="images/console.svg" alt="A game console and controller for playing with friends" width="560" height="360">
+          <div class="guide-content">
+            <p class="eyebrow">A little planning, more playing</p>
+            <h2 id="guide-title">Find your favorite spot</h2>
+            <p>Go solo on a PC or share a console with a friend. Every zone comes with the equipment you need.</p>
+            <a href="pricing.html">Check the demo prices</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer py-4">
+    <div class="container footer-content">
+      <a class="brand" href="index.html" aria-label="LEVEL UP home">LEVEL <span>UP</span></a>
+      <a href="about.html">About this club</a>
+    </div>
+  </footer>
+</body>
+</html>

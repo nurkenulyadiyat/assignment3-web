@@ -1,0 +1,562 @@
+:root {
+  --accent: #6d42c2;
+  --accent-light: #f1eef9;
+  --dark: #24212d;
+  --muted: #625f6c;
+  --border: #e2dfe8;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.65;
+  color: var(--dark);
+  background: #faf9fc;
+}
+
+main {
+  flex: 1;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  color: var(--dark);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  margin-bottom: 16px;
+  font-size: 1.75rem;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+}
+
+.lead {
+  color: var(--muted);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.small-note {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.eyebrow {
+  margin-bottom: 12px;
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.site-header,
+.site-footer {
+  color: #fff;
+  background: var(--dark);
+}
+
+/* Flexbox keeps the navigation visible and lets links wrap. */
+.header-content,
+.nav-list,
+.footer-content,
+.button-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-content {
+  justify-content: space-between;
+  gap: 16px 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.brand {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brand span {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--accent);
+}
+
+.brand:hover {
+  color: #fff;
+}
+
+.nav-list {
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list a {
+  display: block;
+  padding: 8px 14px;
+  border-radius: 4px;
+  color: #e2dfe8;
+  font-size: 0.9375rem;
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  color: #fff;
+  background: #383441;
+}
+
+.nav-list a.active {
+  color: #fff;
+  background: var(--accent);
+  font-weight: 700;
+}
+
+.site-header a:focus-visible,
+.site-footer a:focus-visible {
+  outline-color: #fff;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 12px;
+  z-index: 10;
+  padding: 12px 20px;
+  color: #fff;
+  background: var(--dark);
+}
+
+.skip-link:focus {
+  top: 12px;
+  color: #fff;
+}
+
+.btn {
+  padding: 11px 22px;
+  border-radius: 5px;
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--accent);
+  --bs-btn-border-color: var(--accent);
+  --bs-btn-hover-bg: #56329d;
+  --bs-btn-hover-border-color: #56329d;
+  --bs-btn-active-bg: #56329d;
+  --bs-btn-active-border-color: #56329d;
+  --bs-btn-focus-shadow-rgb: 109, 66, 194;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--accent);
+  --bs-btn-border-color: var(--accent);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--accent);
+  --bs-btn-hover-border-color: var(--accent);
+  --bs-btn-active-bg: var(--accent);
+  --bs-btn-active-border-color: var(--accent);
+  --bs-btn-focus-shadow-rgb: 109, 66, 194;
+}
+
+.button-group {
+  gap: 12px;
+}
+
+#hero {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+#hero h1 {
+  font-size: 3.75rem;
+  letter-spacing: -2px;
+}
+
+.hero-description {
+  max-width: 440px;
+  margin-bottom: 28px;
+}
+
+.hero-picture,
+.zone-card,
+.info-panel,
+.booking-guide {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.hero-picture img,
+.zone-card img,
+.booking-guide img {
+  width: 100%;
+  background: var(--accent-light);
+}
+
+.picture-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 20px 24px;
+  font-size: 0.9375rem;
+}
+
+.section-space {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.benefits-section {
+  border-top: 1px solid var(--border);
+  background: #fff;
+}
+
+.section-heading {
+  margin-bottom: 32px;
+}
+
+.section-heading > p:last-child {
+  color: var(--muted);
+}
+
+.benefit-card {
+  height: 100%;
+  padding: 28px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.benefit-card p {
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.feature-number {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: var(--accent);
+  background: var(--accent-light);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.page-content {
+  padding-top: 56px;
+  padding-bottom: 64px;
+}
+
+.page-heading {
+  max-width: 760px;
+  margin-bottom: 36px;
+}
+
+/* CSS Grid: three columns, then two and one in the media queries. */
+.zones-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+/* The badge is positioned relative to its own card. */
+.zone-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 5px 12px;
+  border-radius: 4px;
+  color: #fff;
+  background: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.zone-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+}
+
+.zone-content h2 {
+  font-size: 1.5rem;
+}
+
+.zone-content > p:not(.eyebrow) {
+  color: var(--muted);
+}
+
+.feature-list {
+  margin-bottom: 24px;
+  padding-left: 20px;
+  font-size: 0.9375rem;
+}
+
+.feature-list li {
+  margin-bottom: 6px;
+}
+
+.zone-content .btn {
+  width: 100%;
+  margin-top: auto;
+}
+
+.page-note {
+  margin-top: 32px;
+  padding: 20px 24px;
+  border-radius: 6px;
+  background: var(--accent-light);
+}
+
+.table-wrapper {
+  max-width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.price-table {
+  min-width: 640px;
+  --bs-table-color: var(--dark);
+  --bs-table-border-color: var(--border);
+}
+
+.price-table caption {
+  padding: 16px 24px;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.price-table th,
+.price-table td {
+  padding: 22px 24px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.price-table thead th {
+  background: var(--accent-light);
+  font-size: 0.875rem;
+}
+
+.info-panel,
+.rules-panel,
+.guide-content {
+  padding: 32px;
+}
+
+.info-panel li {
+  margin-bottom: 8px;
+}
+
+.rules-panel {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--accent-light);
+}
+
+.rules-list {
+  margin: 24px 0 0;
+  padding-left: 22px;
+}
+
+.rules-list li {
+  padding-left: 6px;
+  margin-bottom: 16px;
+}
+
+.rules-list li:last-child {
+  margin-bottom: 0;
+}
+
+.rules-list li::marker {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.form-label {
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.form-control,
+.form-select {
+  min-height: 48px;
+  border-color: #bcb6c7;
+  border-radius: 5px;
+  color: var(--dark);
+  font-family: inherit;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-light);
+}
+
+.form-control::placeholder {
+  color: var(--muted);
+}
+
+.footer-content {
+  justify-content: space-between;
+  gap: 16px 24px;
+}
+
+.site-footer p,
+.site-footer > div > a:last-child {
+  color: #d1ccd9;
+  font-size: 0.8125rem;
+}
+
+.site-footer > div > a:last-child:hover {
+  color: #fff;
+}
+
+/* Tablet: two zone cards and a navigation row below the brand. */
+@media (max-width: 992px) {
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .zones-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #hero {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .hero-description {
+    max-width: 620px;
+  }
+
+  .hero-picture {
+    max-width: 600px;
+  }
+}
+
+/* Phone: one zone card, smaller headings, and reduced spacing. */
+@media (max-width: 576px) {
+  .header-content {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .nav-list {
+    gap: 4px 2px;
+  }
+
+  .nav-list a {
+    padding: 8px 10px;
+    font-size: 0.875rem;
+  }
+
+  h1,
+  #hero h1 {
+    font-size: 2.375rem;
+    letter-spacing: -1px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #hero,
+  .section-space,
+  .page-content {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .page-heading,
+  .section-heading {
+    margin-bottom: 28px;
+  }
+
+  .zones-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .benefit-card,
+  .info-panel,
+  .rules-panel,
+  .guide-content,
+  .zone-content {
+    padding: 24px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
