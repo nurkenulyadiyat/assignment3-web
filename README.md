@@ -70,4 +70,6 @@ The booking form is a static demonstration. It does not send, store, or process 
 
 ## Deployment
 
-Deployment is pending. A public URL will be added after publishing.
+The website is published on GitHub Pages.
+
+Live website: https://nurkenulyadiyat.github.io/assignment3-web/
